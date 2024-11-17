@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organic TUSA Farm</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      header {
+        background: #4caf50;
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      section {
+        padding: 1rem;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .products table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1rem 0;
+      }
+      .products table,
+      .products th,
+      .products td {
+        border: 1px solid #ddd;
+      }
+      .products th,
+      .products td {
+        padding: 0.5rem;
+        text-align: left;
+      }
+      .products th {
+        background-color: #f4f4f4;
+      }
+      footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 2rem;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      form input,
+      form textarea,
+      form button {
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        font-size: 1rem;
+      }
+      form button {
+        background: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      form button:hover {
+        background: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Organic TUSA Farm</h1>
+      <p>Where Quality of the Product Matters</p>
+    </header>
+
+    <section>
+      <h2>Welcome to TUSA Farm</h2>
+      <p>
+        Located in Udaypur, Nepal, we are committed to providing the freshest
+        and finest quality organic products to our customers.
+      </p>
+      <p><strong>Address:</strong> Udaypur, Nepal</p>
+      <p><strong>Phone:</strong> +1 (412) 224-0145</p>
+    </section>
+
+    <section class="products">
+      <h2>Our Organic Products</h2>
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Marigold</td>
+          <td>$25 per pound</td>
+          <td>Freshly harvested, organic blooms.</td>
+        </tr>
+        <tr>
+          <td>Tomato</td>
+          <td>$5 per 2.5 lbs</td>
+          <td>Juicy and ripe, ready for your meals.</td>
+        </tr>
+        <tr>
+          <td>Chilli</td>
+          <td>$3 per pound</td>
+          <td>Spicy and organic, perfect for cooking.</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="contact">
+      <h2>Get in Touch</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Organic TUSA Farm. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
